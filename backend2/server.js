@@ -88,7 +88,7 @@ app.post('/contact', async (req, res) => {
 
   const mailOptions = {
     from: email,
-    to: email,
+    to: 'secretclinicbu@gmail.com',
     subject: 'Contact Support',
     text: `
       Name: ${firstname} ${lastname}
